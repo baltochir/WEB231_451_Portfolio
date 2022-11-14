@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+html {
+	font-family: 'Fira Code', monospace !important;
+}
+body {
+	background-color: black;
+}
+.menu .navbar .container-fluid .navbar-brand {
+	color: white;
+	font-family: fira code;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.menu .navbar .container-fluid .navbar-brand .neg {
+	font-weight: 500;
+}
+.menu .navbar .container-fluid .navbar-brand .hoyr {
+	font-weight: 300;
+}
+.menu .navbar .container-fluid .collapse {
+	justify-content: end;
+}
+.menu .navbar .container-fluid .collapse ul li a {
+	color: white;
+	font-family: fira code;
+	font-weight: 300;
+}
+.menu .navbar .container-fluid .navbar .container-fluid .btn {
+	color: black;
+	border-color: white;
+	font-family: fira code;
+	font-weight: 500;
+	background-color: white;
+}
+
+/*Content*/
+#content {
+	height: 100vh;
+}
+#content .text h1 {
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	color: white;
+	font-family: fira code;
+	font-weight: bold;
+	margin-top: 250px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+/*About*/
+#about {
+	height: 100vh;
+}
+#about .navbar-brand {
+	font-family: fira code;
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#about .me {
+	font-family: fira code;
+	color: white;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+#about .me .row .col .row1 h5 {
+	font-weight: 300;
+}
+#about .me .row .col .row1 h5 span {
+	font-weight: 700;
+}
+#about .me .row .col .row1 p {
+	font-weight: 300;
+	font-size: 15px;
+}
+#about .me .row .col .row .col {
+	background-color: #18191A;
+	border-radius: 10px;
+	margin-right: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#about .me .row .col .row .col ul li {
+	list-style: none;
+	font-size: 15px;
+	font-weight: 300;
+}
+#about .me .a {
+	background-color: #18191A;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 1220px;
+}
+/*Projects*/
+#projects {
+	height: 100vh;
+}	
+#projects .navbar-brand {
+	font-family: fira code;
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#pcontainer {
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#projects .container .row {
+	background-color: #18191A;
+	border-radius: 10px;
+	height: 600px;
+	margin-top: 40px;
+}
+#pcontainer .row h5 {
+	font-family: fira code;
+	color: white;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+#projects .container .row .des p:first-child {
+	font-family: fira code;
+	font-weight: 700;
+	color: white;
+	margin-top: 10px;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+#projects .container .row .des p {
+	font-family: fira code;
+	color: white;
+	text-align: justify;
+	padding-left: 30px;
+}
+#projects .container .row .photo img {
+	justify-content: center;
+	align-content: center;
+	width: 1300px;
+	padding-top: 10px;
+}
+/*Contact*/
+#contact {
+	height: 100vh;
+}
+#contact .navbar-brand {
+	font-family: fira code;
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#contact .sma {
+	margin-top: 250px;
+}
+#contact p {
+	font-family: fira code;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	margin-top: 300px;
+	font-size: 15px;
+}
+#contact .end {
+	font-weight: 700;
+}
